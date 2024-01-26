@@ -1,0 +1,124 @@
+*{
+    font-family: 'Roboto', sans-serif;
+   
+}
+/* INICIO DO PAI DE TODOS */
+.container{
+    border: 1px solid #DADDDF;
+ display: flex;
+border-width: 5px;
+width: fit-content;
+}
+/* FINAL DO PAI DE TODOS  */
+
+/* INICIO DA USER PICKTURE */
+.user-picture{
+   
+    display: flex;
+    justify-content: start;
+    width: 48px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+/* FINAL DA USER PICKTURE */
+
+/* INICIO DO USER TEXT */
+
+.user-name{
+    color: black;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.user-text{ 
+    
+    color:#536471;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+   
+}
+
+.top-text{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.image-verified{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+
+.bottom-text{ color: black;
+    margin: 0;
+    margin-left: 5px;
+   
+}
+/* INICIO DOS ICONES  */
+.wrap-icons{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #536471;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.coments{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15px;
+height: 13.489px;
+margin-left: 5px;
+}
+
+.retwet{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.likes{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.image-icons{
+    width:15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.text1{
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+.text2{
+    margin-top: 3px;
+    margin-left: 6px;
+    margin-right: 50px;
+}
+
+.numbers{ color:#536471;
+    font-size: 13px;
+    font-weight: 400;
+margin-left: 10px;
+}
